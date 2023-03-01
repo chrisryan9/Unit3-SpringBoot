@@ -1,4 +1,4 @@
-package com.javaunit3.springmvc;
+package Unit3.springmvc;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
@@ -17,6 +17,5 @@ public class MovieApp {
         System.out.println("Title: " + bestMovie.getTitle());
         System.out.println("Maturity Rating: " + bestMovie.getMaturityRating());
         System.out.println("Genre: " + bestMovie.getGenre());
-
     }
 }

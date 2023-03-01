@@ -1,17 +1,20 @@
-package com.javaunit3.springmvc;
+package Unit3.springmvc;
 
 import org.springframework.stereotype.Component;
 
-@Component("TitanicMovie")
-public class TitanicMovie implements Movie{
+@Component
+public class BatmanMovie implements Movie{
 
     public String getTitle() {
-        return "Titanic";
+        return "Batman: The Dark Knight";
     }
+
     public String getMaturityRating() {
         return "PG-13";
     }
+
     public String getGenre() {
-        return "Romance";
+        return "Action";
     }
+
 }
