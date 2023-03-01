@@ -15,6 +15,17 @@ public class BestMovieService {
     }
 
     public Movie getBestMovie() {
+        if (movie == null) {
+            throw new IllegalStateException("Movie is null in BestMovieService");
+        }
         return movie;
+    }
+
+
+    @Override
+    public String toString() {
+        return "BestMovieService{" +
+                "movie=" + movie +
+                '}';
     }
 }
